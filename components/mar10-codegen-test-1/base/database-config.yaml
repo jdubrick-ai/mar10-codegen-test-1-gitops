@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mar10-codegen-test-1-database-config
+data:
+  VECTORDB_HOST: "mar10-codegen-test-1-database"
+  VECTORDB_PORT: ""
